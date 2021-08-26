@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="button.css">
+  </head>
+  <body>
+    <div id="buttonDiv">
+    </div>
+    <input type="color" id="color" name="color" />
+    <label for="color" class="text">Object color</label>
+    <br><br>
+    <input type="radio" id="light" name="theme" value="light">
+    <label for="light" class="text">Light theme</label><br>
+    <input type="radio" id="dark" name="theme" value="dark">
+    <label for="dark" class="text">Dark theme</label><br>
+    <br><br>
+    <input type="number" id="difficulty" name="difficulty" min="1" max="10" />
+    <label for="difficulty" class="text">Difficulty meter</label>
+    <br><br>
+    <input type="number" id="boardSize" name="boardSize" min="5" max="20" />
+    <label for="boardSize" class="text">Board Dimensions</label>
+    <input type="range" id="popupSize" name="popupSize" min="200" max="500" />
+    <label for="popupSize" class="text">Popup size</label>
+  </body>
+  <script type="module" src="options.js"></script>
+</html>

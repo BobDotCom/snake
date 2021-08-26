@@ -1,0 +1,45 @@
+:root {
+  --theme: dimgray;
+  --primary: black;
+  --text: white;
+  --icon: black;
+  --icon-size: calc(calc(var(--size) / 10) - 5px);
+  --size: 300px;
+}
+
+#gameBoard {
+  display: grid;
+  height: var(--size);
+  width: var(--size);
+  border: 1px solid var(--text)
+}
+
+.pixel {
+  background-color: var(--primary);
+
+  color: var(--icon) !important;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+}
+
+#buttonDiv button {
+  height: 20px;
+  width: 30px;
+  margin: 10px 2px;
+}
+
+body {
+  background-color: var(--theme);
+}
+
+.text {
+  color: var(--text);
+}
+
+.material-icons {
+  font-size: var(--icon-size) !important;
+}
